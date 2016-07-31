@@ -7,3 +7,25 @@ Distributed as part of Python Regular Expressions Course:
 https://www.udemy.com/python-regular-expressions/?couponCode=PYREGEX
 
 License: GNU General Public License, version 3 (GPL-3.0) https://opensource.org/licenses/GPL-3.0
+
+To run:
+python LearnRegex.py  (on Python 3.x version)
+
+or
+
+python LearnRegex2.7.py  (on Python 2.7 version)
+
+Usage:
+Pattern - Specify pattern here
+Replacement Pattern - Specify replacement text or pattern (to be used with Replace button)
+Text - Text on which to look for Pattern
+Result - Output of the operation
+
+Actions
+Match - Find the first match
+Next Match - Find subsequent matches
+Replace - Replace matches with specified Replacement Pattern
+Split - Split text based on Pattern
+
+For comments/feedback:
+http://www.c2designs.cloud/2016/07/python-regex-interactive-tool.html

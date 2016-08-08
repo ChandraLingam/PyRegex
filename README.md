@@ -8,6 +8,9 @@ https://www.udemy.com/python-regular-expressions/?couponCode=PYREGEX
 
 License: GNU General Public License, version 3 (GPL-3.0) https://opensource.org/licenses/GPL-3.0
 
+Video Tutorial: https://youtu.be/Fkc-9iEhMKM
+
+
 To run:
 python LearnRegex.py  (on Python 3.x version)
 

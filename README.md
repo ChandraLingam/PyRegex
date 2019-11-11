@@ -9,12 +9,12 @@ c. UsageExample - Practical examples using Robocopy log, Sensor data, Health dat
 ## For Python Regression Course, Please Visit:
 https://www.udemy.com/course/python-regular-expressions/?referralCode=D9D33D8FCD263F7CDAE3  
 
-To launch interactive tool:
-<b>python LearnRegex.py</b>  (on Python 3.x version)
+To launch interactive tool:  
+<b>python LearnRegex.py</b>  (on Python 3.x version)  
 
-or
+or  
 
-<b>python LearnRegex2.7.py</b>  (on Python 2.7 version)
+<b>python LearnRegex2.7.py</b>  (on Python 2.7 version)  
 
 Usage:
 Pattern - Specify pattern here

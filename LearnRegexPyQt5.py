@@ -1,6 +1,6 @@
 # Python Regular Expressions - GUI Interactive Tool  
 #   Chandra Lingam
-#   http://c2designs.cloud
+#   Cloud Wave LLC
 #   
 #   Compatible with 3.x version of python
 # Distributed under GNU Public License - https://www.gnu.org/licenses/gpl-3.0.en.html

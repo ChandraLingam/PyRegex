@@ -12,11 +12,11 @@ https://www.udemy.com/course/python-regular-expressions/?referralCode=D9D33D8FCD
 License: GNU General Public License, version 3 (GPL-3.0) https://opensource.org/licenses/GPL-3.0
 
 To run:
-python LearnRegex.py  (on Python 3.x version)
+<b>python LearnRegex.py</b>  (on Python 3.x version)
 
 or
 
-python LearnRegex2.7.py  (on Python 2.7 version)
+<b>python LearnRegex2.7.py</b>  (on Python 2.7 version)
 
 Usage:
 Pattern - Specify pattern here

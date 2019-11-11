@@ -6,7 +6,7 @@ a. Data - Contains datasets used for the course
 b. InteractiveTool - Contains source code for interactive python regex tool  
 c. UsageExample - Practical examples using Robocopy log, Sensor data, Health data.  
 
-## For Python Regression Course, Please Visit:
+## For Python Regression Course (with Subtitles), Please Visit:
 https://www.udemy.com/course/python-regular-expressions/?referralCode=D9D33D8FCD263F7CDAE3  
 
 To launch interactive tool:  

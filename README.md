@@ -4,7 +4,7 @@ Purpose: Regular Expression Interactive Tool written in Python to visually verif
 Developed and tested with Anaconda Python.Newer versions of Anaconda distribution has PyQt5 by default.  If for any reason, PyQt4 import fails on anaconda, please install PyQt4 using this command: conda install PyQt=4. (Thank you Daniel for the tip)
 
 Distributed as part of Python Regular Expressions Course:
-https://www.udemy.com/python-regular-expressions/?couponCode=PYREGEX
+https://www.udemy.com/course/python-regular-expressions/?referralCode=D9D33D8FCD263F7CDAE3
 
 License: GNU General Public License, version 3 (GPL-3.0) https://opensource.org/licenses/GPL-3.0
 

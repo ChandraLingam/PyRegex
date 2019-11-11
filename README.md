@@ -9,9 +9,7 @@ c. UsageExample - Practical examples using Robocopy log, Sensor data, Health dat
 ## For Python Regression Course, Please Visit:
 https://www.udemy.com/course/python-regular-expressions/?referralCode=D9D33D8FCD263F7CDAE3  
 
-License: GNU General Public License, version 3 (GPL-3.0) https://opensource.org/licenses/GPL-3.0
-
-To run:
+To launch interactive tool:
 <b>python LearnRegex.py</b>  (on Python 3.x version)
 
 or

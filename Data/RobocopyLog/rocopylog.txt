@@ -1,0 +1,65 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, May 1, 2016 1:59:16 PM
+   Source : C:\RegularExpressionsWithDotNet\robocopytest\source\தமிழ்\हिन्दी\English
+     Dest : C:\RegularExpressionsWithDotNet\robocopytest\destn\
+
+    Files : *.*
+	    
+  Options : *.* /BYTES /S /DCOPY:DA /COPY:DAT /NP /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   6	C:\RegularExpressionsWithDotNet\robocopytest\source\
+	    New File  		     189	App.config
+	    New File  		    2362	Form1.cs
+	    New File  		    5998	Form1.Designer.cs
+	    New File  		    5817	Form1.resx
+	    New File  		     536	Program.cs
+	    New File  		    3924	RegExTutorial.csproj
+	  New Dir          0	C:\RegularExpressionsWithDotNet\robocopytest\source\bin\
+	  New Dir          6	C:\RegularExpressionsWithDotNet\robocopytest\source\bin\Debug\
+	    New File  		   11264	RegExTutorial.exe
+	    New File  		     189	RegExTutorial.exe.config
+	    New File  		   22016	RegExTutorial.pdb
+	    New File  		   22696	RegExTutorial.vshost.exe
+	    New File  		     189	RegExTutorial.vshost.exe.config
+	    New File  		     490	RegExTutorial.vshost.exe.manifest
+	  New Dir          0	C:\RegularExpressionsWithDotNet\robocopytest\source\obj\
+	  New Dir         12	C:\RegularExpressionsWithDotNet\robocopytest\source\obj\Debug\
+	    New File  		    1464	DesignTimeResolveAssemblyReferences.cache
+	    New File  		    7236	DesignTimeResolveAssemblyReferencesInput.cache
+	    New File  		     906	RegExTutorial.csproj.FileListAbsolute.txt
+	    New File  		    1012	RegExTutorial.csproj.GenerateResource.Cache
+	    New File  		    2384	RegExTutorial.csprojResolveAssemblyReference.cache
+	    New File  		   11264	RegExTutorial.exe
+	    New File  		     180	RegExTutorial.Form1.resources
+	    New File  		   22016	RegExTutorial.pdb
+	    New File  		     180	RegExTutorial.Properties.Resources.resources
+	    New File  		       0	TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+	    New File  		       0	TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+	    New File  		       0	TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+	  New Dir          0	C:\RegularExpressionsWithDotNet\robocopytest\source\obj\Debug\TempPE\
+	  New Dir          5	C:\RegularExpressionsWithDotNet\robocopytest\source\Properties\
+	    New File  		    1438	AssemblyInfo.cs
+	    New File  		    2856	Resources.Designer.cs
+	    New File  		    5612	Resources.resx
+	    New File  		    1100	Settings.Designer.cs
+	    New File  		     249	Settings.settings
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         7         6         1         0         0         0
+   Files :        29        29         0         0         0         0
+   Bytes :    133567    133567         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             8904466 Bytes/sec.
+   Speed :             509.517 MegaBytes/min.
+   Ended : Sunday, May 1, 2016 1:59:16 PM
+

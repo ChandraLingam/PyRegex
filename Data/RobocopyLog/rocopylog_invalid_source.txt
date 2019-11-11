@@ -1,0 +1,17 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Saturday, May 28, 2016 7:24:30 PM
+   Source : C:\RegularExpressionsWithDotNet\robocopytest\source2\
+     Dest : C:\RegularExpressionsWithDotNet\robocopytest\destn\
+
+    Files : *.*
+	    
+  Options : *.* /BYTES /S /DCOPY:DA /COPY:DAT /NP /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+2016/05/28 19:24:30 ERROR 2 (0x00000002) Accessing Source Directory C:\RegularExpressionsWithDotNet\robocopytest\source2\
+The system cannot find the file specified.

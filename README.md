@@ -14,7 +14,8 @@ Stop googling and master regular expression with my simple and straightforward c
 1. In just a couple of hours, you will master regular expression language and learn the internals of the regular expression engine  
 2. You will apply your new skills with four hands-on, real-world projects  
 3. You will gain a solid understanding of the type of performance issues regex can run into, and techniques to address them  
-4. As part of resources in this course, you will get a high-quality, quick reference guide, an interactive tool, all the source code and downloadable slides  
+4. As part of resources in this course, you will get a high-quality quick reference guide, an interactive tool, all the source code and downloadable slides  
+5. You can transfer your regex learning to any language  
 
 ### Why Learn Regular Expressions?  
 * Very often, the data that we need is not readily accessible or useful.  

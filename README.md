@@ -18,8 +18,8 @@ Stop googling and master regular expression with my simple and straightforward c
 5. You can transfer your regex learning to any language  
 
 ### Why Learn Regular Expressions?  
-* Very often, the data that we need is not readily accessible or useful.  
-* Data preparation and clean-up are often one of the most time-consuming activities in a software automation project.   
+* Often, the data that we need is not readily accessible or useful.  
+* Data preparation and clean-up are one of the most time-consuming activities in a software automation project.   
 * Instead of spending time writing code for all this, you can specify data patterns of interest and let regular expression engine do the work for you  
 * Regular Expression is cross-platform, and you can learn the concepts once and use it in multiple programming languages and environment  
 

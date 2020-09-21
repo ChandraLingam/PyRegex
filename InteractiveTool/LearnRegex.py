@@ -22,7 +22,7 @@ class LearnRegex(QtWidgets.QWidget):
         self.init_ui()
         
     def init_ui(self):
-        self.setFont(QtGui.QFont("Sans Serif", 11))
+        self.setFont(QtGui.QFont("Sans Serif", 12))
         self.txtPattern = QtWidgets.QLineEdit()
         self.txtRepPattern = QtWidgets.QLineEdit()
         # Changed to plain text

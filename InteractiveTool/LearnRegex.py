@@ -8,6 +8,9 @@
 # Version History
 # Original Version - Chandra Lingam
 # PyQt5 migration - Sash Eranki
+# Changed txtResult to QPlainTextEdit as QTextEdit automatically renders html content. 
+#   it was difficult to work with html input text - Chandra Lingam
+
 
 import sys
 from PyQt5 import QtGui, QtWidgets  #modified from PyQt4 to PyQt5 for anaconda 3.5 distr
@@ -27,7 +30,8 @@ class LearnRegex(QtWidgets.QWidget):
         self.txtRepPattern = QtWidgets.QLineEdit()
         # Changed to plain text
         self.txtText= QtWidgets.QPlainTextEdit()
-        self.txtResult = QtWidgets.QTextEdit()
+        # TODO: changed QTextEdit to QPlainTextEdit
+        self.txtResult = QtWidgets.QPlainTextEdit()
         
         self.regex = None
         self.regexText = None        
@@ -69,7 +73,8 @@ class LearnRegex(QtWidgets.QWidget):
         
         
     def match_click(self):
-        self.txtResult.setText ('Value,Index,Length,ElapsedTime(s)')
+        # TODO Plain Text
+        self.txtResult.setPlainText ('Value,Index,Length,ElapsedTime(s)')
         try:
             self.regex = re.compile(self.txtPattern.text())
         except Exception as e:           
@@ -85,12 +90,12 @@ class LearnRegex(QtWidgets.QWidget):
         self.highlight_match()
         
     def replace_click(self):
-        self.txtResult.setText(re.sub(self.txtPattern.text(), self.txtRepPattern.text(), self.txtText.toPlainText()))
+        self.txtResult.setPlainText(re.sub(self.txtPattern.text(), self.txtRepPattern.text(), self.txtText.toPlainText()))
                         
     def split_click(self):
-        self.txtResult.setText("")
+        self.txtResult.setPlainText("")
         for s in re.split(self.txtPattern.text(), self.txtText.toPlainText()):
-            self.txtResult.append(s)
+            self.txtResult.appendPlainText(s)
         
     def highlight_match(self):
         start_time = None
@@ -102,7 +107,7 @@ class LearnRegex(QtWidgets.QWidget):
             match = self.match_iter.__next__()
             end_time = time.time()
             
-            self.txtResult.append ('{0},{1},{2},{3:.2f}'.format(match.group(0),match.start(), match.end()-match.start(), end_time - start_time))
+            self.txtResult.appendPlainText ('{0},{1},{2},{3:.2f}'.format(match.group(0),match.start(), match.end()-match.start(), end_time - start_time))
             
             for i in range(0, len(match.groups())):
                 gn = i+1
@@ -110,13 +115,13 @@ class LearnRegex(QtWidgets.QWidget):
                 if gn in self.regex_group_index:
                     group_name = self.regex_group_index[gn]
     
-                self.txtResult.append ('  Group:{0}, Name:{1}, Value: {2}'.format(gn, group_name, match.group(gn)))
+                self.txtResult.appendPlainText ('  Group:{0}, Name:{1}, Value: {2}'.format(gn, group_name, match.group(gn)))
                 
             self.highlighter(match.start(), match.end())
             
         except StopIteration:
             end_time = time.time()            
-            self.txtResult.append ('End, Elapsed Time (s): {0:0.2f}'.format(end_time - start_time))                            
+            self.txtResult.appendPlainText ('End, Elapsed Time (s): {0:0.2f}'.format(end_time - start_time))                            
     def highlighter(self,start,end):
         format = QtGui.QTextCharFormat()
         format.setBackground(QtGui.QBrush(QtGui.QColor("yellow")))

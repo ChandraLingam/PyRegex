@@ -10,6 +10,8 @@
 # PyQt5 migration - Sash Eranki
 # Changed txtResult to QPlainTextEdit as QTextEdit automatically renders html content. 
 #   it was difficult to work with html input text - Chandra Lingam
+# Minor bug fix - when users click "Next Match" immediately after launching tool - it was crashing. Fixed the issue
+
 
 
 import sys
@@ -34,7 +36,7 @@ class LearnRegex(QtWidgets.QWidget):
         self.txtResult = QtWidgets.QPlainTextEdit()
         
         self.regex = None
-        self.regexText = None        
+        self.regex_text = None        
         lblPattern = QtWidgets.QLabel('Pattern')
         lblRepPattern = QtWidgets.QLabel('Replacement Pattern')
         lblText = QtWidgets.QLabel('Text')
@@ -100,7 +102,10 @@ class LearnRegex(QtWidgets.QWidget):
     def highlight_match(self):
         start_time = None
         try:
-            #self.txtText.setAcceptRichText(False)            
+            #self.txtText.setAcceptRichText(False)    
+            if self.regex_text == None:
+                return
+
             self.txtText.setPlainText(self.regex_text)
             
             start_time = time.time()

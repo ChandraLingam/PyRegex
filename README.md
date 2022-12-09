@@ -1,5 +1,5 @@
-# Python Regular Expression, Projects and Solutions Course  
-Course Lectures are available on following Learning Platforms:    
+# Regular Expressions (Regex) with Python - Easy and Fast! 
+Video Course available on Udemy:    
 https://www.udemy.com/course/python-regular-expressions/?referralCode=D9D33D8FCD263F7CDAE3  
 
 Regular Expression is a powerful, elegant, simple (and confusing language!).  

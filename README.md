@@ -2,13 +2,15 @@
 Video Course available on Udemy:    
 https://www.udemy.com/course/python-regular-expressions/?referralCode=D9D33D8FCD263F7CDAE3  
 
-Regular Expression is a powerful, elegant, simple (and confusing language!).  
+Regular Expression (regex) is a pattern detection language – they are typically used to search patterns in text, extract matching values, and data validation. 
 
-Regex is a handy tool for data cleanup and preparation. 
+Regex is supported in many programming languages, including Python, C#, JavaScript, Perl, SQL, and more.
 
-It is one of those things that you always wanted to learn but never had a chance to dedicate time and learn.  
+This course is designed to provide hands-on experience with regular expressions through various exercises and projects
 
-Stop googling and master regular expression with my simple and straightforward course: 2020 Python Regular Expressions, Projects, and Solutions Course (available with Subtitles)  
+Regular Expressions (Regex) with Python course is designed to provide hands-on experience with regular expressions through various exercises and projects
+
+Stop googling and master regular expression with my simple and straightforward course
 
 ### What will you learn in this course?  
 1. In just a couple of hours, you will master regular expression language and learn the internals of the regular expression engine  

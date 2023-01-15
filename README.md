@@ -6,8 +6,6 @@ Regular Expression (regex) is a pattern detection language – they are typicall
 
 Regex is supported in many programming languages, including Python, C#, JavaScript, Perl, SQL, and more.
 
-This course is designed to provide hands-on experience with regular expressions through various exercises and projects
-
 Regular Expressions (Regex) with Python course is designed to provide hands-on experience with regular expressions through various exercises and projects
 
 Stop googling and master regular expression with my simple and straightforward course

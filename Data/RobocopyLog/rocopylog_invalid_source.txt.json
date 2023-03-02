@@ -1,0 +1,10 @@
+{
+ "log_file_name": "..\\Data\\RobocopyLog\\rocopylog_invalid_source.txt",
+ "directory": {
+  "Source": "C:\\RegularExpressionsWithDotNet\\robocopytest\\source2\\",
+  "Dest": "C:\\RegularExpressionsWithDotNet\\robocopytest\\destn\\"
+ },
+ "metrics": [],
+ "error": true,
+ "error_message": "2016/05/28 19:24:30 ERROR 2 (0x00000002) Accessing Source Directory C:\\RegularExpressionsWithDotNet\\robocopytest\\source2\\\n"
+}

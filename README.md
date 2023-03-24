@@ -41,8 +41,7 @@ Stop googling and master regular expression with my simple and straightforward c
 * The ideal student for this course is willing to learn, participate in the course Q&A forum when you need help, and you need to be comfortable coding in Python.  
 
 ### Author  
-My name is Chandra Lingam, and I am the instructor for this course.  I have over 50,000 thousand students and spend a considerable amount of time keeping myself up-to-date and teach technologies from the basics.  
-I am looking forward to meeting you.  
+Hello, I'm Chandra Lingam, and I'll be your instructor for this course. With over 100K students, I'm committed to staying current with the latest technologies and sharing my knowledge from the fundamentals up. I'm excited to have the opportunity to meet you and guide you through this course.
 
 ### Contents of this repostiory
 1. Interactive tool is a learning aid for you to visually observe and build Regex patterns    

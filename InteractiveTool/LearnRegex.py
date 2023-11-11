@@ -8,10 +8,6 @@
 # Version History
 # Original Version - Chandra Lingam
 # PyQt5 migration - Sash Eranki
-# Changed txtResult to QPlainTextEdit as QTextEdit automatically renders html content. 
-#   it was difficult to work with html input text - Chandra Lingam
-# Minor bug fix - when users click "Next Match" immediately after launching tool - it was crashing. Fixed the issue
-
 
 
 import sys
